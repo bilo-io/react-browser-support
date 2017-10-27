@@ -1,0 +1,56 @@
+{
+  "name": "react-browser-support",
+  "version": "0.0.1",
+  "description": "A React component indicating whether or not your application supports the detected browser ( & semantic version ).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "webpack -p --colors -w",
+    "deploy": "npm unlink && npm publish",
+    "build": "webpack -p",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilo-io/react-browser-support.git"
+  },
+  "keywords": [
+    "react",
+    "browser",
+    "support",
+    "semver",
+    "compatibility"
+  ],
+  "author": "Bilo Lwabona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilo-io/react-browser-support/issues"
+  },
+  "homepage": "https://github.com/bilo-io/react-browser-support#readme",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "detect-browser": "^2.0.0",
+    "semver-compare": "^1.0.0"
+  }
+}

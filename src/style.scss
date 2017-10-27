@@ -1,0 +1,10 @@
+$warning-color: #AA1133;
+.warning-callout {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.4em;
+  border-radius: 0.5em;
+  border: 1px solid rgba($warning-color,0.4);
+  background: rgba($warning-color,0.1);
+  color: rgba($warning-color, 0.9);
+}
