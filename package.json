@@ -2,7 +2,7 @@
   "name": "react-browser-support",
   "version": "0.0.1",
   "description": "A React component indicating whether or not your application supports the detected browser ( & semantic version ).",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "doc": "docs"
   },

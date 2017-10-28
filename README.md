@@ -2,7 +2,7 @@
 
 This component displays a message, if the current browser is not supported.
 This is determined using a list of supportedBrowsers ( a javascript object).
-Supported Browsers are specified as an Object to the `list` prop of `<BrowserDetector supported={minBrowserVersions}>`.
+Supported Browsers are specified as an Object to the `list` prop of `<BrowserSupport supported={minBrowserVersions}>`.
 
 ### Installation
 
@@ -10,7 +10,8 @@ Supported Browsers are specified as an Object to the `list` prop of `<BrowserDet
 
 ### Basic
 
-You can use the default `BrowserDetector` component.
+You can use the default `<BrowserSupport />` component.
+
 ```jsx
 import React from 'react'
 import BrowserSupport, { detectBrowser } from 'react-browser-support'
@@ -37,7 +38,7 @@ export default class MyComponent extends React.Component {
 }
 ```
 
-![](docs/default.png)
+![](https://github.com/bilo-io/react-browser-support/docs/default.png)
 
 ### Custom
 
@@ -88,9 +89,3 @@ render() {
 ![](docs/custom.png)
 
 > NOTE: If you are using chrome, you can test this with the [User-Agent Switcher for Chrome](https://chrome.google.com/webstore/search/user%20agent%20switcher) extension.
-
-## Dependencies:
-|package|description|
-|:-|:-|
-|[`detect-browser`](https://www.google.co.za/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwj6xM7L6I3XAhWBb1AKHe_mAHoQFggkMAA&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fdetect-browser&usg=AOvVaw3svy9CEI9Cz5N40aSLtbrf)|determines which browser & version is being used|
-|[`semver-compare`](https://www.google.co.za/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwif567E6I3XAhWGbVAKHT1gA-wQFggkMAA&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fsemver-compare&usg=AOvVaw2-quscAnPpaFq3_cjvpJ-m)|compares strings of semantic version numbers|
