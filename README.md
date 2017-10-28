@@ -38,7 +38,7 @@ export default class MyComponent extends React.Component {
 }
 ```
 
-![](https://github.com/bilo-io/react-browser-support/docs/default.png)
+![](https://github.com/bilo-io/react-browser-support/blob/master/docs/default.png)
 
 ### Custom
 
@@ -86,6 +86,6 @@ render() {
 }
 ```
 
-![](docs/custom.png)
+![](https://github.com/bilo-io/react-browser-support/blob/master/docs/custom.png)
 
 > NOTE: If you are using chrome, you can test this with the [User-Agent Switcher for Chrome](https://chrome.google.com/webstore/search/user%20agent%20switcher) extension.
