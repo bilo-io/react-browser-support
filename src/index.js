@@ -1,8 +1,12 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 const { detect } = require('detect-browser');
 // const cmp = require('semver-compare');
 import cmp from 'semver-compare';
-import './style.scss';export const detectBrowser = () => {
+import './style.scss';
+
+export const detectBrowser = () => {
     return {
         ...detect(),
         message: '',
